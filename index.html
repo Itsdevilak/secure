@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureWebCheck - Educational Website Testing Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-shield-alt"></i>
+                SecureWebCheck
+            </div>
+            <ul class="nav-links">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#testing">What is Testing</a></li>
+                <li><a href="#security">Why Security Matters</a></li>
+                <li><a href="#types">Types of Testing</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#url-test">URL Testing</a></li>
+                <li><a href="#audience">Who Can Use</a></li>
+                <li><a href="#purpose">Project Purpose</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction" class="hero">
+            <div class="container">
+                <h1>Welcome to SecureWebCheck</h1>
+                <p>An educational platform to understand website testing, security checks, and vulnerability awareness in simple terms.</p>
+                <div class="disclaimer">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <strong>Educational Purpose Only:</strong> This website is for learning and awareness. It is not intended for hacking, illegal activities, or real security testing.
+                </div>
+            </div>
+        </section>
+
+        <section id="testing" class="section">
+            <div class="container">
+                <h2>What is Software Testing?</h2>
+                <div class="card">
+                    <p>Software testing is the process of checking if a website or application works as expected. It helps find bugs, errors, and issues before users encounter them. Testing ensures that websites are reliable, user-friendly, and secure.</p>
+                    <p>Think of it like checking a car before a long drive – you want to make sure everything is working properly to avoid problems on the road.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="security" class="section">
+            <div class="container">
+                <h2>Why Website Security Matters</h2>
+                <div class="card">
+                    <p>Website security protects your data, users' information, and your online reputation. Without proper security, websites can be vulnerable to attacks that steal data, spread malware, or cause downtime.</p>
+                    <p>Common security issues include weak passwords, outdated software, and unprotected forms. Learning about these helps you build safer websites and stay safe online.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="types" class="section">
+            <div class="container">
+                <h2>Types of Testing</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3><i class="fas fa-user-check"></i> Manual Testing</h3>
+                        <p>Testing done by humans who interact with the website like real users. They check buttons, forms, and navigation to ensure everything works correctly.</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fas fa-robot"></i> Basic Automation</h3>
+                        <p>Using simple tools or scripts to automatically test repetitive tasks, like checking if links work or forms submit properly.</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fas fa-shield-alt"></i> Security Testing</h3>
+                        <p>Checking for vulnerabilities that could allow unauthorized access, data theft, or other security breaches. This helps identify and fix potential risks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="section">
+            <div class="container">
+                <h2>Tools Used for Testing</h2>
+                <div class="card">
+                    <p>Testing tools help automate and simplify the process. Some popular beginner-friendly tools include:</p>
+                    <ul>
+                        <li><strong>Browser Developer Tools:</strong> Built into web browsers for inspecting and testing websites.</li>
+                        <li><strong>Postman:</strong> For testing API endpoints and web services.</li>
+                        <li><strong>OWASP ZAP:</strong> An open-source tool for finding security vulnerabilities.</li>
+                        <li><strong>Google Lighthouse:</strong> For performance, accessibility, and SEO testing.</li>
+                    </ul>
+                    <p>Remember, always use tools ethically and legally.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="url-test" class="section">
+            <div class="container">
+                <h2>Website URL Testing</h2>
+                <div class="card">
+                    <p>Enter a website URL below to get educational insights about potential risks. This is for learning purposes only – it simulates basic checks and provides general information.</p>
+                    <div class="url-tester">
+                        <input type="url" id="url-input" placeholder="https://example.com" required>
+                        <button id="test-btn">Test URL</button>
+                    </div>
+                    <div id="results" class="results"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="audience" class="section">
+            <div class="container">
+                <h2>Who Can Use This Website</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3><i class="fas fa-graduation-cap"></i> Students</h3>
+                        <p>Computer science and IT students learning about web development and security basics.</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fas fa-user-tie"></i> Software Testers</h3>
+                        <p>Beginners in QA and testing roles looking to understand fundamental concepts.</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fas fa-users"></i> Normal Users</h3>
+                        <p>Anyone interested in learning how websites work and why security is important.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="purpose" class="section">
+            <div class="container">
+                <h2>Project Purpose</h2>
+                <div class="card">
+                    <p>This is an academic project created as part of a final-year MCA (Master of Computer Applications) course. The goal is to educate and raise awareness about website testing and basic security practices in an accessible way.</p>
+                    <p>By providing simple explanations and interactive elements, we aim to demystify technical concepts and encourage responsible online behavior.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 SecureWebCheck. Educational Project. Not for commercial use.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
